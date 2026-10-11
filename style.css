@@ -1,0 +1,137 @@
+header {
+    background-color: #3B2A20;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    margin-bottom: 5px;
+    font-size: 5vh;
+}
+
+#headerDescription {
+    color: #BEA98E;
+    margin-top: 0;
+    font-size: 1.5vh;
+    
+}
+
+.section1 {
+    width: 1000px;
+    margin: 0 auto;
+    color: #3B2A20;
+}
+
+.section1 p {
+    font-size: 2vh;
+}
+
+.section1 h3 {
+    font-size: 3.5vh;
+    text-decoration:underline; 
+    text-decoration-color: #C8A27A;
+    text-underline-offset: 10px;
+}
+
+.section2 {
+    width: 1000px;
+    margin: 0 auto;
+    color: #3B2A20;
+    box-sizing: border-box;
+}
+
+.section2 h3 {
+    font-size: 3.5vh;
+    text-decoration:underline; 
+    text-decoration-color: #C8A27A;
+    text-underline-offset: 10px;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    width: 1000px;
+    gap: 30px;
+}
+
+.cards div{
+    margin: 0;
+    flex: 1;
+    min-width: 0;
+    box-sizing: border-box;
+}
+
+.section2 h4 {
+    font-size: 3vh;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.section2 p {
+    margin-top: 0;
+    font-size: 2vh;
+}
+
+.coffee {
+    border: solid 3px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #D9B48F;
+}
+
+.tea {
+    border: solid 3px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #B8D4A8;
+}
+
+.cakes{
+    border: solid 3px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #F2B8C6;
+}
+
+footer{
+    background-color: #3B2A20;
+    color: #F8F2E9;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+footer h4{
+    margin-bottom: 5px;
+    font-size: 2vh;
+}
+
+footer p {
+    margin-top: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
